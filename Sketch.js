@@ -95,34 +95,32 @@ let isSetupL9called = false;
 function preload() {
   // Load the images for the sprites
 
-  introImages[0] = loadImage('assets/intro0.png');
-  introImages[1] = loadImage('assets/intro1.png');
-  introImages[2] = loadImage('assets/intro2.png');
-  introImages[3] = loadImage('assets/intro3.png');
+  introImages[0] = loadImage('assets/intro0.jpg');
+  introImages[1] = loadImage('assets/intro1.jpg');
+  introImages[2] = loadImage('assets/intro2.jpg');
+  introImages[3] = loadImage('assets/intro3.jpg');
 
-  gameImages[0] = loadImage('assets/game0.png');
-  gameImages[1] = loadImage('assets/game1.png');
-  gameImages[2] = loadImage('assets/game2.png');
-  gameImages[3] = loadImage('assets/game3.png');
-  gameImages[4] = loadImage('assets/game4.png');
-  gameImages[5] = loadImage('assets/game5.png');
-  gameImages[6] = loadImage('assets/game6.png');
-  gameImages[7] = loadImage('assets/game7.png');
-  gameImages[8] = loadImage('assets/game8.png');
-  gameImages[9] = loadImage('assets/game9.png');
-  gameImages[10] = loadImage('assets/game10.png');
-  gameImages[11] = loadImage('assets/credit.png');
+  gameImages[0] = loadImage('assets/game0.jpg');
+  gameImages[1] = loadImage('assets/game1.jpg');
+  gameImages[2] = loadImage('assets/game2.jpg');
+  gameImages[3] = loadImage('assets/game3.jpg');
+  gameImages[4] = loadImage('assets/game4.jpg');
+  gameImages[5] = loadImage('assets/game5.jpg');
+  gameImages[6] = loadImage('assets/game6.jpg');
+  gameImages[7] = loadImage('assets/game7.jpg');
+  gameImages[8] = loadImage('assets/game8.jpg');
+  gameImages[9] = loadImage('assets/game9.jpg');
+  gameImages[10] = loadImage('assets/game10.jpg');
+  gameImages[11] = loadImage('assets/credit.jpg');
 
   energymoduleImage = loadImage('assets/energy_module2-yellow.png');
   boulderImage = loadImage('assets/boulder.png');
   packageImage = loadImage('assets/package-small.png');
-  creditImage = loadImage('assets/credit.png');
-  // logImage = loadImage('assets/log.png');
-  // instImage = loadImage('assets/L8msg.png'); 
+
 
   startIntroButtonImage = loadImage('assets/startbutton-small.png');
   successSound = loadSound("assets/success-small.mp3");
-  // successSound.volume = 0.3;
+   successSound.volume = 0.3;
   introSound = loadSound("assets/cinematic-cut-small.mp3");
 
 }
